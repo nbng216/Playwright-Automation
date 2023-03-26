@@ -11,8 +11,9 @@ test('First Playwright test', async ({ browser }) => {
 
 });
 //without browser context
+//use test.only to run single test case.
 test('Page Playwright test', async ({ page }) => {
 
-    await page.goto("https://www.udemy.com/course/");
+    await page.goto("https://www.facebook.com.com/");
 
 });
