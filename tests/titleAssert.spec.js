@@ -7,4 +7,4 @@ test('Vetify title of facebook', async ({ page }) => {
 
     await expect(page).toHaveTitle("Facebook - log in or sign up")
 
-});
+});  
